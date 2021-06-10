@@ -1,0 +1,208 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.mi-header {
+    background-color: #EAC926;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 20px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height: 100px;
+
+
+
+}
+
+.parte-superior,
+.parte-inferior {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+
+
+}
+
+.mi-h2 {
+    display: flex;
+    text-align: center;
+    color: black;
+    font-size: 0.8rem;
+}
+
+.banner {
+    display: flex;
+    margin-bottom: 0px;
+    margin-top: 100px;
+}
+
+.text-uno {
+    display: flex;
+    align-content: flex-start;
+    flex-direction: row;
+    list-style: none;
+    gap: 5px;
+    margin-right: 30px;
+    font-size: 12px;
+    padding: 20px;
+
+}
+
+.text-dos {
+    display: flex;
+    align-content: flex-start;
+    flex-direction: row;
+    list-style: none;
+    gap: 20px;
+    font-size: 12px;
+
+}
+
+.pantalla {
+    display: flex;
+    justify-content: center;
+    background-color: #ebebeb;
+    margin: 0 0%;
+    padding: 20px 60px;
+}
+
+.articulo {
+    display: flex;
+    background-color: white;
+    margin: 15px;
+    flex-direction: column;
+    padding: 5px;
+
+}
+
+.contenedor {
+    background-color: #ebebeb;
+    margin-left: 33.33%;
+    margin-right: 33.33%;
+    margin-top: 160px;
+
+}
+
+.registro {
+    text-align: center;
+    padding-top: 10px;
+
+
+
+}
+
+.perfil-usuario {
+    background-color: #ebebeb;
+    margin-left: 33.33%;
+    margin-right: 33.33%;
+
+}
+
+.login {
+
+    padding: 80px;
+    height: 60%;
+    margin-left: 33.33%;
+    margin-right: 33.33%;
+    background-color: #ebebeb;
+    text-align: center;
+    margin-top: 160px;
+
+}
+
+.intereses {
+    display: flex;
+    flex-direction: column;
+    margin-left: 42%;
+}
+
+.footer {
+    display: flex;
+    justify-items: center;
+    margin: 5% 10% 0% 10%;
+    font-size: 0.8rem;
+    gap: 10%;
+
+}
+
+.fa-credit-card icono,
+.fas fa-gift regalo,
+.fas fa-user-shield seguridad {
+    justify-content: center;
+}
+
+.icono {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: blue;
+
+}
+
+.logo {
+    height: 50px;
+}
+
+.justificar {
+    margin: 0 50px;
+    padding: 0px;
+    color: blue;
+    font-size: 30px;
+}
+
+.regalo {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: blue;
+}
+
+.seguridad {
+    display: flex;
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: blue;
+    justify-content: center;
+}
+
+.barra-busqueda {
+
+    display: flex;
+    flex-direction: column;
+    padding: 10 40px 10 25px;
+    position: center;
+    margin: 0px auto;
+    align-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 768px) {
+    .mi-header {
+        flex-direction: row;
+        flex-wrap: wrap;
+        font-size: 14px;
+        height: 160px;
+
+    }
+
+    .banner {
+        margin-top: 160px;
+    }
+
+    .logo {
+        height: 20px;
+    }
+
+    .parte-superior,
+    .parte-inferior {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}
